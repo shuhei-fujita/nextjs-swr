@@ -11,7 +11,7 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <main className={styles.main}>
-        <div>hello {data.name}!</div>
+        <div>{data.name}</div>
       </main>
     </div>
   )
